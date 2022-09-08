@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5em;
+}
+#header {
+    background-color: black;
+    height: 50px;
+    width: auto;
+}
+#headhac {
+
+    font-family: Arial;
+}
+#userphoto {
+    height: 30px;
+    width: 30px;
+}
+#usermenuphoto {
+    border-radius: 100px;
+    border: solid 5px black;
+}
+#landscape {
+    background-color: #0b1166;
+    position: absolute;
+    top: 310px;
+    left: 50px;
+    color: white;
+}
+#footer {
+    clear: left; /*Cannot float on left*/
+    margin-bottom: -10px;
+    width: 99.4%;
+    background: black;
+    color: #FFFF;
+    font-family: Arial;
+    text-align: center;
+    padding: 4px;
+}
+/* ##### Navigation Bar ##### */
+ul {
+    list-style-type: none;
+    margin : 0;
+    padding: 0;
+    background-color: #000;
+}
+li {
+    float: left;
+    border-right: 1px solid #bbb;
+    height: 50px;
+}
+li:last-child {
+    border-right: none;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #808080;
+}
+.active {
+    background-color: #0099ff;
+    height: 22px;
+}
+.box {
+    width: 150px;
+    height: 15px;
+    padding: 2px;
+    margin-left: 5px;
+    box-shadow: 0px 0px 2px 2px black;
+}
+#githubicon {
+    filter: invert(65%);
+
+}
+#signin {
+    font-family: monospace;
+    font-size: small;
+    color: blue;
+    margin-top: -25px;
+    margin-left: 840px;
+}
+#signup {
+    font-family: monospace;
+    font-size: small;
+    color: blue;
+    margin-top: -25px;
+}

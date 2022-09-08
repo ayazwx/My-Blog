@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Sign In</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link rel="icon" type="image/x-icon" href="assets/myblog.jpeg">
+    </head>
+    <body>
+        <div id="container">
+            <div id="header">
+                <ul style="display: inline;">
+                    <li><a href="user.html"><img src="userphoto/user.png" alt="user photo" id="userphoto"/></a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>   
+                <li id="signin"><a href="signin.html" class="active">Sign In</a></li>
+                <li id="signup"><a href="signup.html">Sign Up</a></li>
+            </div>
+            <br><br>
+            <form action="signin.php" style="border:1px solid #ccc">
+                <fieldset>
+                    <legend>Sign In</legend>
+                    <label for="username"><b>Username: </b></label><input id="userame" type="text" placeholder="Username" required><br>
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+                    <button>Login</button>
+                </fieldset>
+                <br><br>
+            </form>
+            <br><br>
+            <a href="signup.html" style="color: black;">Create a new account</a>
+            <br><br><br><br><br><br><br><br><br>
+    
+            <div id="footer">
+                <p>Copyright &copy; 2022 Ayaz</p>
+            </div>
+    </body>
+</html>
